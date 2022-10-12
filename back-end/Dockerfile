@@ -8,4 +8,4 @@ EXPOSE 5009
 
 RUN npm i 
 
-CMD ["node", "./src/server.js"] 
+CMD ["npm", "start"] 
