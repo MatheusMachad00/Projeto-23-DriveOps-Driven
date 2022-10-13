@@ -11,4 +11,4 @@ RUN mv build/* /var/www/hmtl
 
 WORKDIR /
 
-RUN rn -rf /app
+RUN rm -rf /app
